@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FillMultilineTextBox", "FillMultilineTextBox.vbproj", "{EC945FAD-819A-4211-A99D-449383C29266}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC945FAD-819A-4211-A99D-449383C29266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC945FAD-819A-4211-A99D-449383C29266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC945FAD-819A-4211-A99D-449383C29266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC945FAD-819A-4211-A99D-449383C29266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51111817-0DD6-4BBE-A7BF-5E88E03BA159}
+	EndGlobalSection
+EndGlobal
