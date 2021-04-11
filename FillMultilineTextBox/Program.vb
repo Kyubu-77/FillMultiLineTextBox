@@ -9,6 +9,7 @@ Module Program
         ComponentInfo.SetLicense("FREE-LIMITED-KEY")
 
         Fill_Multiline_Text_Box()
+        ReRead_Text_Box()
         Console.WriteLine("Done!")
 
     End Sub
@@ -31,5 +32,17 @@ Module Program
         End Using
         Return 0
     End Function
+    Function ReRead_Text_Box() As Integer
+        Using document = PdfDocument.Load("..\..\..\Sample_Short_Filled.pdf")
+
+            Dim formField As PdfField = document.Form.Fields("Textfeld 81")
+            Dim tmp As PdfTextField = formField
+            Dim text As String = tmp.Value
+            Console.WriteLine(text)
+        End Using
+        Return 0
+    End Function
+
+
 
 End Module
